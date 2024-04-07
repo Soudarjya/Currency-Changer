@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    background-color: tomato;
+}
+form{
+    min-height: 40vh;
+    min-width: 50vh;   
+    margin: 2vh 0 2vh 0;
+}
+input{
+    width: 98%;
+    margin-top: 10px;
+}
+.message{
+    background-color: white;
+    height: 17px;
+    width: 90%;
+    border: solid black 1px;
+}
+.dropdown{
+   height: 90px;
+   margin: 2rem 0 2rem 0;
+   display: flex;
+   width: 100%;
+}
+.from{
+    width: 40%;
+}
+.to{
+    width: 40%;
+}
+.select{
+    display: flex;
+    justify-content: space-around;
+}
